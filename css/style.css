@@ -703,6 +703,9 @@ footer{
         padding: 20px;
         border-radius: 6px;
     }
+    .fa{
+        color: white;
+    }
     .who-we-are h2{
         font-size: 40px;
     }
