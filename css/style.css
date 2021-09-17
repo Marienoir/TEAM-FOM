@@ -69,6 +69,7 @@ p{
 .works {
     text-align: center;
     font-size: 30px;
+    margin: 10px 0;
 }
 .our-works {
     display: flex;
@@ -84,6 +85,7 @@ p{
 .para {
     text-align: center;
     justify-content: center;
+    font-size: 14px;
 }
 .choose {
     text-align: center;
@@ -139,7 +141,7 @@ p{
 }
 .client__col p,
 .news__col p {
-    font-size: 22px;
+    font-size: 15px;
     line-height: 35px;
 }
 .client__col img{
@@ -161,13 +163,13 @@ p{
     font-weight: 300;
 }
 .news__heading p{
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     margin: 9px 0;
 }
 .news__col{
-    padding: 20px;
+    padding: 5px;
     line-height: 22px;
     margin: 25px 10px;
     text-align: center;
@@ -191,6 +193,7 @@ p{
 }
 iframe{
     width: 100%;
+    height: 350px;
 }
 /* BRANDS */
 .brands_section{
@@ -223,13 +226,13 @@ footer{
 .footer__col h4{
     font-style: normal;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     margin: 50px 0 19px 0;
 }
 .footer__col p{
     font-style: normal;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 15px;
 }
 .contact__details {
     display: flex;
