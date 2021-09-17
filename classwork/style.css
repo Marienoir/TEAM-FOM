@@ -1,3 +1,4 @@
+
 .our-services {
     font-family:'Open-sans', sans-serif,   ;
 }
@@ -88,7 +89,9 @@ p{
 
 @media screen and (max-width: 900px) {
     .work-flow {
-        background-image: max-width:100%;height:auto;
+        /* background-image:  */
+        max-width:100%;
+        height:auto;
     }
     .our-works {
         flex-direction: column;

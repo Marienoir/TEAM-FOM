@@ -10,6 +10,98 @@ h1,h2,h3,h4,h,h6,p{
 /* .clients__section{
     background-color:#E5E5E5;
 } */
+/* HOW IT WORKS */
+.our-services {
+    font-family:'Open-sans', sans-serif,   ;
+}
+.provide {
+    color: rgba(153, 90, 170, 1);
+    font-size: 14px;
+    padding-top: 50px ;
+    padding-left: 50%;
+}
+.our {
+    font-size: 40px;
+    color: #474747;
+    font-weight: 300;
+    padding-left: 534px;
+}
+.ops {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+}
+.rectangle {
+    position: relative;
+    margin: 29px 84px 29px 84px;
+    z-index: 1;
+}
+.support-img {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 50px;
+    z-index: 2;
+}
+h6 {
+    /* padding-left: 20px; */
+    font-size: 18px;
+    color: #565656;
+    ;
+}
+p{
+    font-size: 10px;
+}
+
+.f2 {
+    box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07); 
+    border-style: none;
+}
+
+
+.work-flow {
+    background-image: url(/assets/icons/section_men-1\ 1.png);
+    color: white;
+}
+.flow  {
+    text-align: center;
+}
+.works {
+    text-align: center;
+    font-size: 30px;
+}
+.our-works {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.vector {
+    padding: 25px;
+    border:  5px solid #EE2B7A;
+    border-radius: 100%; 
+}
+.para {
+    text-align: center;
+    justify-content: center;
+}
+.choose {
+    text-align: center;
+}
+.pay  {
+    text-align: center;
+}
+.pick {
+    text-align: center;
+    padding: 10px;
+}
+.pick h4, .select h4, .choose h4, .pay h4{
+    margin: 10px 0;
+}
+.select {
+    text-align: center;
+}
+
 .container{
     padding: 20px;
 }
@@ -137,7 +229,7 @@ footer{
 .footer__col p{
     font-style: normal;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 19px;
 }
 .contact__details {
     display: flex;
@@ -161,6 +253,18 @@ footer{
 }
 
 @media screen and (max-width:900px) {
+    .work-flow {
+        /* background-image:  */
+        max-width:100%;
+        height:auto;
+    }
+    .our-works {
+        flex-direction: column;
+        font-size:5vw;
+    }
+    p {
+        font-size: 2vw;
+    }
     .clients__row,
     .news__row,
     .footer__row{
